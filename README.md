@@ -1,6 +1,11 @@
 # 0Gtools
 The repository is about to be updated with 2 more node guides.
+What is 0G's Data Availability (DA) system?
+Answers :
 
+    1.An instant messaging service.
+    2.A security layer for financial transactions.
+    3.A layer of data availability service directly built on top of a decentralized storage system. 
 ## 0gchain Storage KV Deployment Guide
 
 ### 1. Install dependencies for building from source
