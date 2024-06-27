@@ -1,6 +1,5 @@
 # 0Gtools
 The repository is about to be updated with 2 more node guides.
-BEFORE YOU DEPLOY THE STORAGE KV NODE, FIRST YOU MUST DEPLOY YOUR [STORAGE NODE](https://github.com/hubofvalley/Testnet-Guides/blob/main/0g%20(zero-gravity)/storage-node/storage-node.md)
 
 ## 0gchain Storage KV Deployment Guide
 
@@ -107,9 +106,7 @@ BEFORE YOU DEPLOY THE STORAGE KV NODE, FIRST YOU MUST DEPLOY YOUR [STORAGE NODE]
    ```bash
    sudo journalctl -u zgskv -fn 100 -o cat
    ```
-   MAKE SURE YOUR LOGS HAS THE SYNCED TX_SEQ(tx sequence) VALUE, CHECK [STORAGE SCAN](https://storagescan-newton.0g.ai/)
-   ![image](https://github.com/hubofvalley/Testnet-Guides/assets/100946299/ce2d8707-190d-4931-8ed1-44c1447fe360)
-
+   
 ## delete the node
    ```bash
    sudo systemctl stop zgskv
